@@ -1,8 +1,12 @@
 # springboot_filter_demo
 
 ## springboot+loginFilter+redis的demo
-###仅使用http://localhost:8080/api/login?username=chen&password=1234登录，登陆界面懒得写
+### 使用
+>http://localhost:8080/api/login?username=chen&password=1234
+登录,登陆界面懒得写
+
 **两个表的SQL语句如下**
+
 ```
 create table chen
 (
