@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>listAll</title>
+</head>
+<body>
+<div>
+    <tr th:each="user:${user}">
+        <td th:text="${user.id}"></td>
+        <td th:text="${user.name}"></td>
+        <td th:text="${user.sex}"></td>
+    </tr>
+</div>
+</body>
+</html>
